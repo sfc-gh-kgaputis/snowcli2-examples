@@ -1,0 +1,11 @@
+name: snowcli2
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - nodefaults
+dependencies:
+  - python=3.10
+  - snowflake-snowpark-python
+  - pip
+  - pip:
+    # Snowflake
+    - git+https://github.com/Snowflake-Labs/snowcli@v2.0.0-alpha.1
