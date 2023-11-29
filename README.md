@@ -24,13 +24,20 @@ conda env remove --name snowcli2
 snow snowpark init test_project
 ```
 ### Build and deploy
+**NOTE:** Coverage wrapper is currently limited to projects with a single procedure
 ```
 snow snowpark build
 snow snowpark deploy --replace
+snow snowpark deploy --replace --install-coverage-wrapper
 ```
-### Test functions and procedures
+### Invoke functions and procedures
 ```
 snow snowpark execute function "hello_function('world')"
 snow snowpark execute procedure "hello_procedure('world')"
 snow snowpark execute procedure "test_procedure()"
+```
+### View coverage reports
+**NOTE:** Project must be deployed with coverage wrapper, typically in lower environment, for coverage reports to be available.
+```
+snow snowpark coverage report "hello_procedure(name string)"
 ```
