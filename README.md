@@ -1,5 +1,10 @@
-# SnowCLI 2.0 usage
-For more information, please see the [Snow CLI Guide](https://docs.snowflake.com/LIMITEDACCESS/snowcli/snowcli-guide). Since this is an alpha release,  the documentation may not reflect the latest features.
+# Snowflake CLI 2.0 examples
+This project contains various examples of how to use the new version of Snow CLI (currently 2.0.0-alpha.1).        
+
+**NOTE:**  Snowflake CLI is still in Private Preview, and this project uses a prerelease version of the tool. Please refer to the [snowcli git repo](https://github.com/Snowflake-Labs/snowcli) for more information on participating in the Private Preview. 
+ 
+For more information, please see the [Snow CLI Guide](https://docs.snowflake.com/LIMITEDACCESS/snowcli/snowcli-guide).
+
 ## Environment setup
 ### Conda install
 ```
@@ -7,7 +12,7 @@ conda env create -f conda_env.yml
 conda activate snowcli2
 ```
 ### Conda upgrade
-**TODO:** Determine if/why this is corrupting certain plugins
+**TODO:** Determine if/why prune is corrupting certain plugins
 ```
 conda env update --file conda_env.yml --prune
 ```
