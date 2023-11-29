@@ -1,9 +1,9 @@
 # Snowflake CLI 2.0 examples
-This project contains various examples of how to use the new version of Snow CLI (currently 2.0.0-alpha.1).        
+This project contains various examples of how to use the new version of Snowflake CLI (currently 2.0.0-alpha.1).        
 
 **NOTE:**  Snowflake CLI is still in Private Preview, and this project uses a prerelease version of the tool. Please refer to the [snowcli git repo](https://github.com/Snowflake-Labs/snowcli) for more information on participating in the Private Preview. 
  
-For more information, please see the [Snow CLI Guide](https://docs.snowflake.com/LIMITEDACCESS/snowcli/snowcli-guide).
+For more information, please see the [Snowflake CLI Guide](https://docs.snowflake.com/LIMITEDACCESS/snowcli/snowcli-guide).
 
 ## Environment setup
 ### Conda install
